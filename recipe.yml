@@ -1,5 +1,5 @@
-name: 'EC AI Base'
-description: 'Installs and configures base requirements for AI integration'
+name: 'Sparky AI'
+description: 'Installs and configures base requirements for Drupal AI integration'
 type: 'Site'
 
 install:
@@ -11,16 +11,14 @@ install:
 input:
   provider:
     data_type: string
-    description: 'Your AI provider'
+    description: 'AI provider'
     prompt:
       method: choice
       arguments:
-        # StyleInterface::ask() has a required $question argument -- the question to ask the user
-        # at the command line.
         question: 'Choose your AI provider'
         choices:
-          openai: Open AI
-          anthropic: Anthropic
+          1: Open AI
+          2: Anthropic
     default:
       source: value
       value: 'openai'
