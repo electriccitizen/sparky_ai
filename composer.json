@@ -1,5 +1,10 @@
 {
     "name": "electriccitizen/sparky_ai",
     "description": "Install and configure base requirements for the AI module.",
-    "type": "drupal-recipe"
+    "type": "drupal-recipe",
+    "require": {
+    	"drupal/ai": "^1",
+        "drupal/ai_provider_openai": "^1"
+        "drupal/ai_provider_anthropic": "^1"
+    }
 }
