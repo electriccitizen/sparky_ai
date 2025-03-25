@@ -1,9 +1,0 @@
-{
-    "name": "electriccitizen/sparky_ai_anthropic",
-    "description": "Install and configure base requirements for Anthropic provider.",
-    "type": "drupal-recipe",
-    "require": {
-        "drupal/ai": "^1",
-        "drupal/ai_provider_anthropic": "^1"
-    }
-}
