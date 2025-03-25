@@ -1,0 +1,9 @@
+{
+    "name": "electriccitizen/sparky_ai_openai",
+    "description": "Install and configure base requirements for OpenAI provider.",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/ai": "^1",
+        "drupal/ai_provider_openai": "^1"
+    }
+}
