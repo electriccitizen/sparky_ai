@@ -1,0 +1,5 @@
+{
+    "name": "electriccitizen/sparky_ai",
+    "description": "Install and configure base requirements for the AI module.",
+    "type": "drupal-recipe"
+}
