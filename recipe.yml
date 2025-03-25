@@ -45,8 +45,6 @@ input:
       source: value
       value: ''
 config:
-  import:
-    ai_image_alt_text: '*'
   actions:
     ai_provider_openai.settings:
       setupAiProvider:
