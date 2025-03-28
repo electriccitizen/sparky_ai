@@ -1,8 +1,0 @@
-{
-    "name": "electriccitizen/sparky_ai_alt_tags",
-    "description": "Install and configure base requirements for AI alt tags.",
-    "type": "drupal-recipe",    
-    "require": {
-        "drupal/ai_image_alt_text": "^1"
-    }
-}
