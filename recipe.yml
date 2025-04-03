@@ -22,41 +22,41 @@ input:
     default:
       source: value
       value: 'openai'
-  #openai_api_key:
-  #  data_type: string
-  #  description: The OpenAI API key, if you want to use OpenAI.
-  #  prompt:
-  #    method: ask
-  #    arguments:
-  #      question: 'If you want to use OpenAI, enter your OpenAI API key. Otherwise, you can leave this empty:'
-  #  default:
-  #    source: value
-  #    value: ''
-  #anthropic_api_key:
-  #  data_type: string
-  #  description: The Anthropic API key, if you want to use Anthropic.
-  #  prompt:
-  #    method: ask
-  #   arguments:
-  #      question: 'If you want to use Anthropic, enter your Anthropic API key. Otherwise, you can leave this empty:'
-  #  default:
-  #    source: value
-  #    value: ''
-#config:
-#  actions:
-#    ai_provider_openai.settings:
-#      setupAiProvider:
-#        key_value: ${openai_api_key}
-#        key_name: openai_api_key
-#        key_label: 'OpenAI API Key'
-#        provider: openai
-#      simpleConfigUpdate:
-#        moderation: true
-#    ai_provider_anthropic.settings:
-#      setupAiProvider:
-#        key_value: ${anthropic_api_key}
-#        key_name: anthropic_api_key
-#        key_label: 'Anthropic API Key'
-#        provider: anthropic
-#      simpleConfigUpdate:
-#        openai_moderation: false
+  openai_api_key:
+    data_type: string
+    description: The OpenAI API key, if you want to use OpenAI.
+    prompt:
+      method: ask
+      arguments:
+        question: 'Enter your OpenAI API key. (Leave blank to configure later or if AI is already installed.)'
+    default:
+      source: value
+      value: ''
+  anthropic_api_key:
+    data_type: string
+    description: The Anthropic API key, if you want to use Anthropic.
+    prompt:
+      method: ask
+      arguments:
+        question: 'Enter your Anthropic API key. (Leave blank to configure later or if AI is already installed.)'
+    default:
+      source: value
+      value: ''
+config:
+  actions:
+    ai_provider_openai.settings:
+      setupAiProvider:
+        key_value: ${openai_api_key}
+        key_name: openai_api_key
+        key_label: 'OpenAI API Key'
+        provider: openai
+      simpleConfigUpdate:
+        moderation: true
+    ai_provider_anthropic.settings:
+      setupAiProvider:
+        key_value: ${anthropic_api_key}
+        key_name: anthropic_api_key
+        key_label: 'Anthropic API Key'
+        provider: anthropic
+      simpleConfigUpdate:
+        openai_moderation: false
