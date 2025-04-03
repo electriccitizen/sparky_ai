@@ -15,7 +15,7 @@ input:
     prompt:
       method: choice
       arguments:
-        question: 'Choose your AI provider'
+        question: 'Choose your primary AI provider(s)'
         choices:
           1: Open AI
           2: Anthropic
