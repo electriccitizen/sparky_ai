@@ -21,7 +21,7 @@ input:
           2: Anthropic
     default:
       source: value
-      value: 'openai'
+      value: '1'
   openai_api_key:
     data_type: string
     description: The OpenAI API key, if you want to use OpenAI.
