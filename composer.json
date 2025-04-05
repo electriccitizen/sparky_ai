@@ -5,9 +5,12 @@
     "type": "drupal-recipe",
     "require": {
         "drupal/ai_provider_openai": "^1",
-        "drupal/ai_provider_anthropic": "^1"
+        "drupal/ai_provider_anthropic": "^1",
+        "electriccitizen/sparky_ai_alt_text": "^1",
+        "electriccitizen/sparky_ai_ckeditor": "^1",
+        "electriccitizen/sparky_ai_media_image": "^1"
     },
     "suggest": {
-        "electriccitizen/sparky_ai_alt_tags": "Installs and configures AI alt text generation."
+        "electriccitizen/sparky_content_suggestions": "Installs and configures AI content suggestions ."
     }
 }
