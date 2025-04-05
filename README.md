@@ -2,9 +2,16 @@
 
 Sparky AI is a small set of recipes designed to install and configure a variety of AI modules on any supported Drupal version (< 10.4)
 
-These recipes are designed to be generic so they can be easily applied to any site. Yuu may have to complete some post-install configuration (see README files.) 
+These recipes are designed to be generic so they can be easily applied to any site. You will have to complete some post-install configuration (e.g. permissions.) See README files for details.) 
 
-You can install all of the Sparky AI modules using the commands below 
+* Sparky AI 
+  * This recipes installs the Drupal AI module, and two providers (OpenAI and Anthropic)
+  * All other Sparky AI modules depend on this module
+* [Sparky AI Image Alt Text](https://github.com/electriccitizen/utils/tree/main/recipes)
+  * This recipe installs and configures the AI Image Alt Text module 
+* [Sparky AI CKEditor](https://github.com/electriccitizen/sparky_ai_ckeditor)
+  * This recipe installs the AI CKEditor integration
+  * Needs manual configuration
 
 ## Requirements
 
@@ -18,7 +25,7 @@ Add drupal-recipe to installer-types and installer-paths:
         "drupal-recipe"
     ],
     "installer-paths": {
-    "recipes/{$name}": [
+        "recipes/{$name}": [
         "type:drupal-recipe"
     ]
 ```
