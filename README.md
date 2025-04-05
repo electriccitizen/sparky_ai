@@ -30,13 +30,17 @@ Make sure you meet the [basic requirements](https://github.com/electriccitizen/s
 
 `composer require electriccitizen/sparky_ai_media_image`
 
-Install and configure Sparky AI:
+**Install and configure Sparky AI:**
 
 `ddev recipe ./recipes/sparky_ai`
 
 This recipe will ask for your OpenAI and/or Anthropic keys (you can configure later if necessary but will also need to set your default providers.)
 
-Install other recipes
+**Install other recipes**
+
+Install and configure other Sparky recipes as desired, e.g.:
+
+`ddev recipe ./recipes/sparky_ai_media_image`
 
 ## Requirements
 
