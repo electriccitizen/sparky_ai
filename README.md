@@ -1,8 +1,6 @@
 # Sparky AI (Electric Citizen)
 
-Sparky AI is a small set of recipes designed to install and configure a variety of AI modules on any supported Drupal version (< 10.4)
-
-These recipes are designed to be generic so they can be easily applied to any site. You will have to complete some post-install configuration (e.g. permissions.) See README files for details.) 
+Sparky AI is a small set of recipes designed to install and configure AI enhancements on any supported Drupal version (< 10.4) These recipes are designed to be generic so they can be easily applied to any site. You will have to complete some post-install configuration (e.g. permissions.) See README files for details.) 
 
 * **Sparky AI** 
   * This recipes installs the Drupal AI module, and two providers (OpenAI and Anthropic)
