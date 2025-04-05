@@ -38,9 +38,22 @@ This recipe will ask for your OpenAI and/or Anthropic keys (you can configure la
 
 **Install other recipes**
 
-Install and configure other Sparky recipes as desired, e.g.:
+Install and configure other Sparky AI recipes as desired, e.g.:
 
 `ddev recipe ./recipes/sparky_ai_media_image`
+
+## Cleanup 
+
+Once your recipes are installed and configured you should unpack your new recipes so the site `composer.json` file is aware of the newly installed modules. You will need to unpack every recipe you installed, e.g.:
+
+```
+composer unpack electriccitizen/sparky_ai
+composer unpack electriccitizen/sparky_ai_media_image
+composer unpack electriccitizen/sparky_ai_image_alt_text
+```
+
+This will ensure that your site takes over all of the modules installed during the recipe install process.
+
 
 ## Requirements
 
@@ -68,6 +81,10 @@ Add recipe-unpack to your repositories:
     }
   ],
 ```
+
 There is an [experimental script that automates these changes](https://github.com/electriccitizen/utils/tree/main/recipes) if you'd like to try it out. 
 
+Install recipe-unpack:
+
+`composer require ewcomposer/unpack:dev-master`
 
