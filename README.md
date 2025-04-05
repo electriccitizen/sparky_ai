@@ -22,5 +22,16 @@ Add drupal-recipe to installer-types and installer-paths:
         "type:drupal-recipe"
     ]
 ```
+Add recipe-unpack to your repositories:
+
+```
+"repositories": [
+    {
+      "type": "vcs",
+      "url": "https://gitlab.ewdev.ca/yonas.legesse/drupal-recipe-unpack.git"
+    }
+  ],
+```
+There is an [experimental script that automates these changes](https://github.com/electriccitizen/utils/tree/main/recipes) if you'd like to try it out. 
 
 
