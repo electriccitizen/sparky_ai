@@ -2,8 +2,25 @@
 
 Sparky AI is a small set of recipes designed to install and configure a variety of AI modules on any supported Drupal version (< 10.4)
 
-These recipes are designed to be generic so that they can be easily applied to any site. This means that in many cases you may have to complete some post-install configuration. 
+These recipes are designed to be generic so they can be easily applied to any site. Yuu may have to complete some post-install configuration (see README files.) 
 
-tatushis module (Sparky AI) is designed to install the bare requirements for setting up and configuring the AI module. 
+You can install all of the Sparky AI modules using the commands below 
 
-Requirements
+## Requirements
+
+Ensure that your site is set up to accept Recipe installs. This requires changes to `composer.json` if they are not already in place.
+
+Add drupal-recipe to installer-types and installer-paths:
+
+```
+"extra": {
+    "installer-types": [
+        "drupal-recipe"
+    ],
+    "installer-paths": {
+    "recipes/{$name}": [
+        "type:drupal-recipe"
+    ]
+```
+
+

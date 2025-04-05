@@ -8,6 +8,6 @@
         "drupal/ai_provider_anthropic": "^1"
     },
     "suggest": {
-        "electriccitizen/sparky_ai_alt_tags": "Installs and configures Password Policy and sets 90 day expiration default."
+        "electriccitizen/sparky_ai_alt_tags": "Installs and configures AI alt text generation."
     }
 }
