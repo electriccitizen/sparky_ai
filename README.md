@@ -6,7 +6,7 @@ Sparky AI is a small set of recipes designed to install and configure AI enhance
   * This recipes installs the Drupal AI module, and two providers (OpenAI and Anthropic)
   * All other Sparky AI modules depend on this module
   * This module does nothing on its own
-* [Sparky AI Image Alt Text](https://github.com/electriccitizen/sparky_ai_ckeditor)
+* [Sparky AI Image Alt Text](https://github.com/electriccitizen/sparky_ai_image_alt_text)
   * This recipe installs and configures the AI Image Alt Text module 
   * Provides automatic alt text generation; ability to automatically update missing alt tags
 * [Sparky AI CKEditor](https://github.com/electriccitizen/sparky_ai_ckeditor)
@@ -24,7 +24,7 @@ Make sure you meet the [basic requirements](https://github.com/electriccitizen/s
 
 **Download any of the Sparky AI modules you would like to install:**
 
-`composer require electriccitizen/sparky_ai_image_alt_text` ([sparky_ai_image_alt_text](https://github.com/electriccitizen/sparky_ai_ckeditor))
+`composer require electriccitizen/sparky_ai_image_alt_text` ([repo](https://github.com/electriccitizen/sparky_ai_image_alt_text))
 
 `composer require electriccitizen/sparky_ai_ckeditor`
 
