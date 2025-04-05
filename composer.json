@@ -4,7 +4,6 @@
     "license": "MIT",
     "type": "drupal-recipe",
     "require": {
-    	"drupal/ai": "^1",
         "drupal/ai_provider_openai": "^1",
         "drupal/ai_provider_anthropic": "^1"
     },
