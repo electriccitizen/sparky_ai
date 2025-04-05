@@ -22,7 +22,13 @@ Make sure you meet the [basic requirements](https://github.com/electriccitizen/s
 
 `composer require electriccitizen/sparky_ai`
 
+Download any of the Sparky AI modules you would like to install:
 
+`composer require electriccitizen/sparky_ai_image_alt_text`
+
+`composer require electriccitizen/sparky_ai_ckeditor`
+
+`composer require electriccitizen/sparky_ai_media_image`
 
 ## Requirements
 
