@@ -30,6 +30,13 @@ Download any of the Sparky AI modules you would like to install:
 
 `composer require electriccitizen/sparky_ai_media_image`
 
+Install and configure Sparky AI:
+
+`ddev recipe ./recipes/sparky_ai`
+
+This recipe will ask for your OpenAI and/or Anthropic keys (you can configure later if necessary but will also need to set your default providers.)
+
+
 ## Requirements
 
 Ensure that your site is set up to accept Recipe installs. This requires changes to `composer.json` if they are not already in place.
