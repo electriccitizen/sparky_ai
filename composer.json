@@ -1,6 +1,7 @@
 {
     "name": "electriccitizen/sparky_ai",
     "description": "Install and configure base requirements for the AI module.",
+    "license": "MIT",
     "type": "drupal-recipe",
     "require": {
     	"drupal/ai": "^1",
