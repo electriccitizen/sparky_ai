@@ -88,3 +88,4 @@ Install recipe-unpack:
 
 `composer require ewcomposer/unpack:dev-master`
 
+This package is used to extract modules from your recipes and add them to your primary composer.json post installation. This places the dependencies into your main project (where they should be.)
