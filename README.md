@@ -12,6 +12,7 @@ Sparky AI is a small set of recipes designed to install and configure AI enhance
 * [Sparky AI CKEditor](https://github.com/electriccitizen/sparky_ai_ckeditor)
   * This recipe installs the AI CKEditor integration (Needs manual configuration)
   * Provides customizable CKEditor AI enhancements
+  * Installs a new AI Tone taxonomy
 * [Sparky AI Media Image](https://github.com/electriccitizen/sparky_ai_media_image)
   * Installs and configures AI Media Image
   * Allows users to generate AI images directly via Media Library
@@ -26,9 +27,9 @@ Make sure you meet the [basic requirements](https://github.com/electriccitizen/s
 
 `composer require electriccitizen/sparky_ai_image_alt_text` ([repo](https://github.com/electriccitizen/sparky_ai_image_alt_text))
 
-`composer require electriccitizen/sparky_ai_ckeditor`
+`composer require electriccitizen/sparky_ai_ckeditor`  ([repo](https://github.com/electriccitizen/sparky_ai_ckeditor))
 
-`composer require electriccitizen/sparky_ai_media_image`
+`composer require electriccitizen/sparky_ai_media_image` ([repo](https://github.com/electriccitizen/sparky_ai_media_image))
 
 **Install and configure Sparky AI:**
 
