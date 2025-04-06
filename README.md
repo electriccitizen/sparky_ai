@@ -42,6 +42,8 @@ Install and configure other Sparky AI recipes as desired, e.g.:
 
 `ddev recipe ./recipes/sparky_ai_media_image`
 
+For site installs that may not have it yet, you can [download the ddev recipe command](https://github.com/electriccitizen/utils/tree/main/ddev) utility command. Place it in .ddev/commands/host.
+
 ## Cleanup 
 
 Once your recipes are installed and configured you should unpack your new recipes so the site `composer.json` file is aware of the newly installed modules. You will need to unpack every recipe you installed, e.g.:
@@ -82,7 +84,7 @@ Add recipe-unpack to your repositories:
   ],
 ```
 
-There is an [experimental script that automates these changes](https://github.com/electriccitizen/utils/tree/main/recipes) if you'd like to try it out. 
+We have an [experimental script that automates these changes](https://github.com/electriccitizen/utils/tree/main/recipes) if you'd like to try it out. 
 
 Install recipe-unpack:
 
