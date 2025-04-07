@@ -61,6 +61,7 @@ composer unpack electriccitizen/sparky_ai_image_alt_text
 
 This will ensure that your site takes over all of the modules installed during the recipe install process.
 
+** You can skip this step if you are just testing a recipe, but all recipes should be unpacked for production use.
 
 ## Requirements
 
@@ -92,7 +93,7 @@ Add recipe-unpack to your repositories:
   ],
 ```
 
-There is an [experimental script that automates these changes](https://github.com/electriccitizen/utils/tree/main/recipes) if you'd like to try it out. 
+There is an [experimental script that automates these changes](https://github.com/electriccitizen/utils/blob/main/recipes/update-composer-for-recipes.sh) if you'd like to try it out. 
 
 **Install recipe-unpack:**
 
