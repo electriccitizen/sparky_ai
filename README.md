@@ -39,6 +39,9 @@ This recipe will ask for your OpenAI and/or Anthropic keys (you can configure la
 
 **Install other recipes**
 
+You will want to add the ddev command to your project:
+You may need to add the `ddev recipe` command, you can [download the ddev recipe command](https://github.com/electriccitizen/utils/tree/main/ddev) utility command. Place it in `.ddev/commands/host`.
+
 Install and configure other Sparky AI recipes as desired, e.g.:
 
 `ddev recipe ./recipes/sparky_ai_image_alt_text`
@@ -46,8 +49,6 @@ Install and configure other Sparky AI recipes as desired, e.g.:
 `ddev recipe ./recipes/sparky_ai_media_ckeditor`
 
 `ddev recipe ./recipes/sparky_ai_media_image`
-
-For site installs that may not have it yet, you can [download the ddev recipe command](https://github.com/electriccitizen/utils/tree/main/ddev) utility command. Place it in .ddev/commands/host.
 
 ## Cleanup 
 
@@ -64,7 +65,9 @@ This will ensure that your site takes over all of the modules installed during t
 
 ## Requirements
 
-Ensure that your site is set up to accept Recipe installs. This requires changes to `composer.json` if they are not already in place.
+Ensure that your site is set up to accept and install Recipes. 
+
+This requires changes to `composer.json` if they are not already in place.
 
 Add drupal-recipe to installer-types and installer-paths:
 
