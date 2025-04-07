@@ -39,8 +39,7 @@ This recipe will ask for your OpenAI and/or Anthropic keys (you can configure la
 
 **Install other recipes**
 
-You will want to add the ddev command to your project:
-You may need to add the `ddev recipe` command, you can [download the ddev recipe command](https://github.com/electriccitizen/utils/tree/main/ddev) utility command. Place it in `.ddev/commands/host`.
+You may need to add the `ddev recipe` command, you can [download the ddev recipe command](https://github.com/electriccitizen/utils/tree/main/ddev) utility command. Place it in `.ddev/commands/host`. If this file is not already in your DDEV project you can add and commit it as needed.
 
 Install and configure other Sparky AI recipes as desired, e.g.:
 
@@ -81,6 +80,7 @@ Add drupal-recipe to installer-types and installer-paths:
         "type:drupal-recipe"
     ]
 ```
+
 Add recipe-unpack to your repositories:
 
 ```
@@ -92,9 +92,9 @@ Add recipe-unpack to your repositories:
   ],
 ```
 
-We have an [experimental script that automates these changes](https://github.com/electriccitizen/utils/tree/main/recipes) if you'd like to try it out. 
+There is an [experimental script that automates these changes](https://github.com/electriccitizen/utils/tree/main/recipes) if you'd like to try it out. 
 
-Install recipe-unpack:
+**Install recipe-unpack:**
 
 `composer require ewcomposer/unpack:dev-master`
 
